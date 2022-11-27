@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     //private variables
-    private float speed = 5.0f; //variable for speed of vehicle using float(decimal)
+    private float speed = 20.0f; //variable for speed of vehicle using float(decimal)
     private float turnSpeed = 50.0f; //variable for speed on horizontal axis
     private float horizontalInput; //variable for player input on horizontal axis
     private float verticalInput; //variable for player input on vertical axis (forwards and backwards)
