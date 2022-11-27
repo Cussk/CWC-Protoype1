@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     public GameObject player; // variable that links to an object in the game
-    public Vector3 offset = new Vector3(0, 5, -7); //variable for offsetting camera
+    private Vector3 offset = new Vector3(0, 5, -7); //variable for offsetting camera
 
     // Start is called before the first frame update
     void Start()
